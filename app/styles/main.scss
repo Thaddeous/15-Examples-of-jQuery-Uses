@@ -2,30 +2,96 @@
 // endbower
 
 body {
-    background: #757575;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+  background: #757575;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-family: sans-serif, 'Montserrat', 'Anonymous+Pro';
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
-    h1 {
-        font-size: 60px;
-        line-height: 1;
-        letter-spacing: -1px;
-    }
+.main {
+  text-align: center;
 }
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+.container {
+  display: inline-block;
+  width: 420px;
+  height: 400px;
+  margin: 15px 0px 0px 15px;
+  padding-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #292929;
+  background-color: #eeeeee;
+} 
+
+.box { /* Universal Box Layout & Styling Begins*/
+  width: 400px;
+  height: 200px;
+  margin: 10px auto;
+  border-radius: 6px;
+  background-color: #000000;
 }
+
+.box p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+  padding-top: 8px;
+  font-family: 'Montserrat'; 
+} /* Universal Box Layout & Styling Ends*/
+
+
+.leftbar { /* Leftbar & Rightbar Layout & Styling Begins*/
+  float: left;
+  width: 65%;
+  margin: 0px 10px auto;
+}
+
+.text {
+  text-align: left;
+  line-height: 21px;
+}
+
+.rightbar {
+  float: right;
+  width: 25%;
+  margin: 0px 10px auto;
+} /* Leftbar and Rightbar Layout & Styling Ends*/
+
+
+.button { /* General Button Layout & Styling Begins*/
+  display: inline;
+  float: right;
+  height: 37px;
+  width: 105px;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #0E496A;
+  border: 3px solid #0C3E59;   
+}
+
+.button p {
+  text-align: center;
+  line-height: 37px;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+} /* General Button Layout & Styling Ends*/
+
+
+.one { /* Example 1 .fadeIn()*/
+  width: 400px;
+  height: 200px;
+  margin: 10px auto;
+  border-radius: 6px;
+  background-color: #78F600;
+} /* End Example 1 .fadeIn()*/
+
+
+.two { /* Example 1 .slideDown()*/
+  width: 400px;
+  height: 200px;
+  margin: 10px auto;
+  border-radius: 6px;
+  background-color: #78F600;
+} /* End Example 1 .slideDown()*/
