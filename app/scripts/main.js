@@ -6,5 +6,11 @@ $( ".button1" ).click(function() {
 });
 
 
+// #2 = .slideDown function 
+$( ".button2" ).click(function() {
+  $( ".two" ).hide().slideDown( "slow", function() {
+    // Animation complete
+  });
+});
 
 
