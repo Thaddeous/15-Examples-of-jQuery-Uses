@@ -58,7 +58,6 @@ body {
   margin: 0px 10px auto;
 } /* Leftbar and Rightbar Layout & Styling Ends*/
 
-
 .button { /* General Button Layout & Styling Begins*/
   display: inline;
   float: right;
@@ -78,20 +77,54 @@ body {
   font-family: 'Montserrat';
 } /* General Button Layout & Styling Ends*/
 
+.box1 {
+  overflow: hidden;
+}
 
 .one { /* Example 1 .fadeIn()*/
+  display: none;
+}
+
+.one:active {
   width: 400px;
   height: 200px;
   margin: 10px auto;
   border-radius: 6px;
   background-color: #78F600;
-} /* End Example 1 .fadeIn()*/
+}
 
-
-.two { /* Example 1 .slideDown()*/
+// green box styling
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen { /* Example 1 .slideDown()*/
   width: 400px;
   height: 200px;
   margin: 10px auto;
   border-radius: 6px;
   background-color: #78F600;
-} /* End Example 1 .slideDown()*/
+} 
+
+.three:active {
+  width: 400px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  background-color: #78F600;
+}
+
+.four:active {
+  width: 400px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  background-color: #78F600;
+}
+
+
+
+
+
+
+
+
+
